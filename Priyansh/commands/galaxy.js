@@ -3,7 +3,7 @@ const request = require("request");
 const fs = require("fs-extra");
 
 module.exports.config = {
-  name: "logo",
+  name: "pic",
   version: "1.0",
   hasPermssion: 0,
   credits: ` 𝖵𝗂𝗄ꫝ𝗌 𝖱ꫝ𝗃𝗉𝗎𝗍`,
