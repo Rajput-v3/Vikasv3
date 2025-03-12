@@ -24,7 +24,7 @@ const time = process.uptime(),
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =                                     
-["https://i.imgur.com/BRMZfP4.mp4","https://i.imgur.com/laOaa8f.mp4","https://i.imgur.com/mXH1gRe.mp4","https://i.imgur.com/2n53Q8K.jpeg","https://i.imgur.com/AEBVH5D.jpeg"];
+["https://i.imgur.com/2n53Q8K.jpeg","https://i.imgur.com/AEBVH5D.jpeg"];
 var callback = () => api.sendMessage({body:`🤍 𝘼𝘿𝙈𝙄𝙉 𝘼𝙉𝘿 𝘽❍𝙏 𝙄𝙉𝙁❍ 🤍
 
 𝙅𝘼𝙔 𝙎𝙃𝙍𝙀𝙀 𝙍𝘼𝙈 ➤
