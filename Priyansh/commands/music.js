@@ -36,7 +36,7 @@ module.exports = {
     }
 
     const processingMessage = await api.sendMessage(
-      "✅𝑻𝒉𝒐𝒅𝒊 𝒅𝒆𝒓 𝒘𝒂𝒊𝒕 𝒌𝒂𝒓 𝒍𝒐 𝒏𝒂 𝒑𝒓𝒐𝒄𝒄𝒆𝒔𝒊𝒏𝒈 𝒕𝒊𝒎𝒆 𝒃𝒂𝒅𝒉 𝒈𝒚𝒂 𝒉𝒂𝒊 𝒃𝒂𝒃𝒚🥺...",
+      "✅ Processing your request. Please wait...",
       event.threadID,
       null,
       event.messageID
@@ -54,7 +54,7 @@ module.exports = {
       const videoUrl = `https://www.youtube.com/watch?v=${topResult.videoId}`;
 
       // Construct API URL for downloading the video or audio
-      const apiUrl = `https://apis.davidcyriltech.my.id/youtube/${type === "audio" ? "mp3"}?url=${encodeURIComponent(videoUrl)}`;
+      const apiUrl = `https://apis.davidcyriltech.my.id/youtube/mp3?url=${encodeURIComponent(videoUrl)}`;
 
       api.setMessageReaction("⌛", event.messageID, () => {}, true);
 
