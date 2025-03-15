@@ -55,7 +55,7 @@ async function makeImage({ one, two }) {
 
   pairing_img
     .composite(circleOne.resize(230, 230), 108, 255)
-    .composite(circleTwo.resize(230, 230), 434, 455);
+    .composite(circleTwo.resize(230, 230), 108, 255);
 
   let raw = await pairing_img.getBufferAsync("image/png");
   fs.writeFileSync(pathImg, raw);
