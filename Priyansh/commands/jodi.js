@@ -24,7 +24,7 @@ module.exports.onLoad = async () => {
 
   if (!existsSync(dirMaterial)) mkdirSync(dirMaterial, { recursive: true });
   if (!existsSync(pairingImagePath)) {
-    await downloadFile("https://i.imgur.com/DIG3idi.png", pairingImagePath);
+    await downloadFile("https://i.postimg.cc/YS8H0rFK/DIG3idi.jpg", pairingImagePath);
   }
 };
 
@@ -105,4 +105,3 @@ module.exports.run = async function ({ api, event, args, Users, Threads, Currenc
     }, threadID, () => fs.unlinkSync(path), messageID);
   });
 };
-                                        
