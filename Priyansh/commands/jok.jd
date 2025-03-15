@@ -1,0 +1,20 @@
+const axios = require('axios');
+
+module.exports = {
+  name: 'joke',
+  description: 'Ek random joke sunen',
+  async execute(msg, args) {
+    try {
+      const response = await axios.get('https://v2.jokeapi.dev/joke/Any');
+      const joke = response.data;
+
+      if (joke.type === 'twopart') {
+        msg.reply(`${joke.setup}\n\n${joke.delivery}`);
+      } else {
+        msg.reply(joke.joke);
+      }
+    } catch (error) {
+      msg.reply('Koi joke nahi mila!');
+    }
+  }
+};
