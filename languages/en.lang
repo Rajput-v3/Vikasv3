@@ -3,7 +3,7 @@
 # Put the # character at the beginning of each sentence if you don't want the code to run those lines. 
 # Thanks to https://www.facebook.com/duong.than.net for translate to English!
 
-# Vikas.js 
+# Priyansh.js 
 
 vikas.newVersionDetected=⭐️You are using version %1, the latest version is %2. Please update to the latest version for better bot performance. For update type in console/cmd: node update
 vikas.errorFormat=Malformed module!
