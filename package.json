@@ -1,8 +1,8 @@
 {
-  "name": "Priyansh",
+  "name": "Vikas",
   "version": "10.1.1",
-  "description": "A simple Facebook Messenger Bot made by 𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭.",
-  "main": "Priyansh.js",
+  "description": "A simple Facebook Messenger Bot made by 𝐕𝐢𝐤𝐚𝐬.",
+  "main": "Vikas.js",
   "engines": {
       "node": "20.x",
       "npm": "10.0.0"
@@ -14,24 +14,24 @@
   },
   "repository": {
       "type": "git",
-      "url": "https://github.com/Priyansh-11/Priyansh-bot/issues"
+      "url": "https://github.com/officialvikasrajput-1/Vikasv3/issues"
   },
   "keywords": [
       "bot",
       "facebook",
-      "projectpriyansh",
+      "projectvikas",
       "messenger",
       "javasvript",
-      "priyanshu",
+      "vikas",
       "prince",
       "mental"
   ],
-  "author": "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+  "author": "𝐕𝐢𝐤𝐚𝐬",
   "license": "GPL-3.0",
   "bugs": {
-      "url": "https://github.com/Priyansh-11/Priyansh-bot/issues"
+      "url": "https://github.com/officialvikasrajput-1/Vikasv3/issues"
   },
-  "homepage": "https://github.com/Priyansh-11/Priyansh-bot/issues",
+  "homepage": "https://github.com/officialvikasrajput-1/Vikasv3/issues",
   "dependencies": {
       "@distube/ytdl-core": "^4.13.2",
       "@miraipr0ject/assets": "^1.0.9",
@@ -57,7 +57,7 @@
       "express": "^4.19.2",
       "extract-zip": "^2.0.1",
       "fb-tools": "0.0.1-security",
-      "fca-priyansh": "^18.0.0",
+      "fca-vikas": "^18.0.0",
       "figlet": "^1.5.2",
       "form-data": "^4.0.0",
       "fs-extra": "^10.1.0",
@@ -92,9 +92,9 @@
       "path": "^0.12.7",
       "pidusage": "^3.0.0",
       "ping-monitor": "^0.6.2",
-      "priyansh-fb-downloader": "^2.0.0",
-      "priyansh-ig-downloader": "^2.0.2",
-      "priyanshu-fca": "^1.0.0",
+      "vikas-fb-downloader": "^2.0.0",
+      "vikas-ig-downloader": "^2.0.2",
+      "vikas-fca": "^1.0.0",
       "random-cat-img": "^1.0.4",
       "readline": "^1.3.0",
       "request": "^2.88.2",
@@ -120,4 +120,5 @@
       "ytdl-core": "^4.11.2",
       "zalgo": "0.0.1"
   }
-}
+  }
+    
